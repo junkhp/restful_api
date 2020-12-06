@@ -20,5 +20,5 @@ from rest_api.urls import router as recipe_router
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include(recipe_router.urls)),
+    path('/', include(recipe_router.urls)),
 ]
