@@ -1,0 +1,2 @@
+<class 'rest_api.serializer.RecipesSerializer'>
+[{"model": "rest_api.recipesmodel", "pk": 1, "fields": {"title": "チキンカレー", "making_time": "45分", "serves": "4人", "ingredients": "玉ねぎ,肉,スパイス", "cost": 1000, "created_at": "2020-12-06T11:52:40.053Z", "updated_at": "2020-12-06T11:52:40.053Z"}}, {"model": "rest_api.recipesmodel", "pk": 2, "fields": {"title": "オムライス", "making_time": "30分", "serves": "2人", "ingredients": "玉ねぎ,卵,スパイス,醤油", "cost": 700, "created_at": "2020-12-06T11:53:14.622Z", "updated_at": "2020-12-06T11:53:14.622Z"}}]
