@@ -7,5 +7,5 @@ from .models import RecipesModel
 
 class RecipesSerializer(serializers.ModelSerializer):
     class Meta:
-        model = RecipesModel()
-        fields = '__all__'
+        model = RecipesModel
+        fields = ('id', 'title', 'making_time', 'serves', 'ingredients', 'cost')
