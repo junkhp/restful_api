@@ -5,4 +5,4 @@ from .views import RecipesViewSet
 
 
 router = routers.DefaultRouter()
-router.register('recipes', RecipesViewSet)
+router.register(r'recipes', RecipesViewSet)
