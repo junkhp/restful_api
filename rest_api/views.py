@@ -13,4 +13,4 @@ class RecipesViewSet(viewsets.ModelViewSet):
 
     serializer_class = RecipesSerializer
     # queryset = {'recipes': queryset}
-    print(serializer_class)
+    # print(serializer_class)
