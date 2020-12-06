@@ -1,0 +1,5 @@
+__py__cache
+.DS_Store
+local_settings.py
+db.sqlite3
+create.sql
