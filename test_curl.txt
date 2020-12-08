@@ -1,0 +1,5 @@
+全てのレシピを取得
+ローカル
+curl -X GET http://127.0.0.1:8000/recipes
+本番環境
+curl -X GET https://myrecipesapi.herokuapp.com/recipes
