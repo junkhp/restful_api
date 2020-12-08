@@ -3,3 +3,21 @@
 curl -X GET http://127.0.0.1:8000/recipes
 本番環境
 curl -X GET https://myrecipesapi.herokuapp.com/recipes
+
+IDに対応するレシピを取得
+ローカル
+curl -X GET http://127.0.0.1:8000/recipes/ID
+本番環境
+curl -X GET https://myrecipesapi.herokuapp.com/recipes/ID
+
+レシピを新規作成
+ローカル
+curl -w '\n' -H "content-type: application/json" -X POST -d'{"title":"トマトスープ","making_time":"45分","serves":"5人","ingredients":"玉ねぎ,トマト,スパイス,水","cost":"450"}' http://127.0.0.1:8000/recipes
+本番環境
+curl -w '\n' -H "content-type: application/json" -X POST -d'{"title":"トマトスープ","making_time":"45分","serves":"5人","ingredients":"玉ねぎ,トマト,スパイス,水","cost":"450"}' https://myrecipesapi.herokuapp.com/recipes
+
+
+IDに対応するレシピを削除
+curl -X DELETE http://127.0.0.1:8000/recipes/ID 
+本番環境
+curl -X DELETE https://myrecipesapi.herokuapp.com/recipes/ID 
